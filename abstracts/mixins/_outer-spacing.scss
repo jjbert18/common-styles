@@ -1,0 +1,32 @@
+// -----------------------------------------------------------------------------
+// Mixin: Outer Spacing
+// Apply to container where spacing is needed on the outside
+// @include outer-spacing();
+//
+// Options:
+// • $property(value = margin or padding) - default = margin - changes property
+// • $container(value = true or false) - default = false - adds a max-width
+// • $breakpoint(value = breakpoint variable) - default = $bp-md - breakpoint trigger
+// -----------------------------------------------------------------------------
+
+@mixin outer-spacing (
+  $property: padding,
+  $container: false,
+  $breakpoint: $bp-md
+  ) {
+
+  #{$property}-left: $spacing-horizontal-sm;
+  #{$property}-right: $spacing-horizontal-sm;
+
+  @if $container == true {
+    @include bp-min($bp-lg) {
+      margin: 0 auto;
+      max-width: 80vw;
+    }
+  } @else {
+    @include bp-min($breakpoint) {
+      #{$property}-left: $spacing-horizontal-md;
+      #{$property}-right: $spacing-horizontal-md;
+    }
+  }
+}

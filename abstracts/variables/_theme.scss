@@ -1,0 +1,64 @@
+// -----------------------------------------------------------------------------
+// Variables: Theme
+// Content specific color variables
+// -----------------------------------------------------------------------------
+
+// === Base === //
+// Copy text
+$color-text: $color-acadia;
+
+// Main brand
+$color-brand: $color-sprout;
+
+// Background
+$color-background: $color-off-white;
+
+// Links
+$color-link-text: $color-avocado;
+$color-link-text-hover: $color-brand;
+
+// === Header === //
+$color-header-bg-full: rgba($color-kelp, 0.95);
+$color-header-bg-trans: rgba($color-kelp, 0.5);
+$color-header-bg-drop: darken($color-kelp, 3%);
+$color-header-nav-link: $color-off-white;
+$color-header-nav-hover: $color-brand;
+
+// === Mobile menu toggle === //
+$color-mobile-bars: $color-off-white;
+
+// === Footer === //
+$color-footer-bg: $color-kelp;
+$color-footer-text: $color-off-white;
+$color-footer-copyright: rgba($color-avocado, 0.5);;
+$color-footer-icons: $color-avocado;
+$color-footer-icons-hover: $color-brand;
+
+// === Contact bar === //
+$color-contact-bar-bg: $color-mercury;
+$color-contact-bar-title: $color-avocado;
+
+// === Primary button === //
+$color-btn-primary-bg: $color-brand;
+$color-btn-primary-text: $color-off-white;
+
+// === Secondary button === //
+$color-btn-secondary-bg: $color-sprout;
+$color-btn-secondary-border: $color-avocado;
+$color-btn-secondary-text: $color-sprout;
+$color-btn-secondary-text-hover: $color-off-white;
+
+// === Pea Card === //
+$color-card-bg-1: $color-kelp;
+$color-card-bg-2: $color-sprout;
+$color-card-bg-3: $color-avocado;
+$color-card-bg-overlay: $color-kelp;
+$color-card-text: $color-off-white;
+
+// === Hero === //
+$color-hero-text: $color-off-white;
+
+// === Sidebar === //
+$color-sidebar-bg: $color-mercury;
+$color-sidebar-icons: $color-avocado;
+$color-sidebar-icons-hover: $color-brand;

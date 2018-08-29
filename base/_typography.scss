@@ -1,0 +1,57 @@
+// -----------------------------------------------------------------------------
+// This file contains basic typography style for copy text
+// -----------------------------------------------------------------------------
+
+body {
+  color: $color-text;
+  font: normal 16px / 1.4 $font-secondary;
+}
+
+// === Headers === //
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  @include type-h1();
+}
+
+h2 {
+  @include type-h2();
+}
+
+h3 {
+  @include type-h3();
+}
+
+h4 {
+  @include type-h4();
+}
+
+// === Paragraphs === //
+p.type-p-plus {
+  @include type-p-plus();
+}
+
+p {
+  @include type-p();
+}
+
+p.type-p-minus {
+  @include type-p-minus();
+}
+
+a,
+a:visited {
+  color: $color-link-text;
+}
+
+a {
+  font-weight: $font-weight-bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $color-link-text-hover;
+}

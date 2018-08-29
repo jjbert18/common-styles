@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// Variables: Breakpoints
+// Site default breakpoint widths
+// -----------------------------------------------------------------------------
+
+// === Container widths === //
+$max-width: 1400px;
+
+// === Breakpoints === //
+// Widths
+$bp-sm: 320px;
+$bp-md: 768px;
+$bp-lg: 1024px;
+$bp-xlg: 1600px;
+
+// map
+$breakpoints: (
+  'sm': $bp-sm,
+  'md': $bp-md,
+  'lg': $bp-lg,
+) !default;

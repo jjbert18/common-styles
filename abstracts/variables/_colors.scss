@@ -1,0 +1,44 @@
+// -----------------------------------------------------------------------------
+// Variables: Colors
+// Global colors and color map
+// -----------------------------------------------------------------------------
+
+// === Globals === //
+$color-white: #ffffff;
+$color-black: #000000;
+$color-acadia: #333831;
+$color-kelp: #294629;
+$color-avocado: #487c48;
+$color-sprout: #80c784;
+$color-mercury: #e4e4e4;
+$color-off-white: #fcfff3;
+
+// === Color Map === //
+// Colors that will be used as classes
+
+$color-map: (
+  "white" $color-white,
+  "black" $color-black,
+  "acadia" $color-acadia,
+  "kelp" $color-kelp,
+  "avocado" $color-avocado,
+  "sprout" $color-sprout,
+  "mercury" $color-mercury,
+  "off-white" $color-off-white,
+);
+
+// LIGHT text - DARK backgrounds
+$color-bg-light-text-map: (
+  'black',
+  'acadia',
+  'kelp',
+  'avocado',
+  'sprout',
+);
+
+// DARK text - LIGHT backgrounds
+$color-bg-dark-text-map: (
+  'white',
+  'off-white',
+  'mercury',
+);

@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+// Base: Color Classes
+// Converts color variables into class names
+// Maps found in abstracts/variables/_var-color.scss
+//
+// .color--$color-name
+// .bg-color--$color-name
+// -----------------------------------------------------------------------------
+
+// === Default Color Map === //
+@each $value in $color-map {
+  .color--#{nth($value, 1)} {
+    color: nth($value, 2);
+  }
+
+  .bg-color--#{nth($value, 1)} {
+    background-color: nth($value, 2);
+  }
+}
+
+// === Assigns text colors to background colors === //
+
+// LIGHT text - DARK backgrounds
+@each $color in $color-bg-light-text-map {
+  .bg-color--#{$color} {
+    color: $color-white;
+  }
+}
+
+// DARK text - LIGHT backgrounds
+@each $color in $color-bg-dark-text-map {
+  .bg-color--#{$color} {
+    color: $color-gray;
+  }
+}

@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// Mixin: Headings
+// For selecting a range of numbered headings
+// @include headings();
+//
+// Option(s):
+// • $from(value = heading #) - default = 1 - start here
+// • $to(value = heading #) - default = 6 - end here
+// -----------------------------------------------------------------------------
+
+@mixin headings($from: 1, $to: 6) {
+  @for $i from $from through $to {
+    h#{$i} {
+      @content;
+    }
+  }
+}
