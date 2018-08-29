@@ -1,9 +1,8 @@
 # common-styles
 ## styles starter
 
-### SCSS file markup
 
-#### File structure:
+### File structure:
 
 * **main**
 * -- **abstracts = files that do not output css when compiled**
@@ -48,9 +47,10 @@
 * ---- helpers
 * ---- typography 
 
-#### File start:
-First line on compiled files start with `@charset 'UTF-8';`
-**not needed on partial files*
+## File Header
+
+#### Character set:
+For files that **get compiled** start with `@charset 'UTF-8';`
 
 #### File introduction:
 Introduction comments for organization, notes, and file search help. 
