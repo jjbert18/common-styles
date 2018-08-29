@@ -1,14 +1,16 @@
 // -----------------------------------------------------------------------------
-// This file contains basic typography style for copy text
+// Base: Typography
+// Applies global typography variables and mixins to elements and classes
 // -----------------------------------------------------------------------------
 
+// === Base === //
 body {
   color: $color-text;
   font: normal 16px / 1.4 $font-secondary;
 }
 
 // === Headers === //
-h1, h2, h3, h4 {
+@include headings() {
   margin: 0;
   padding: 0;
 }
@@ -29,6 +31,14 @@ h4 {
   @include type-h4();
 }
 
+h5 {
+  @include type-h5();
+}
+
+h6 {
+  @include type-h6();
+}
+
 // === Paragraphs === //
 p.type-p-plus {
   @include type-p-plus();
@@ -42,6 +52,7 @@ p.type-p-minus {
   @include type-p-minus();
 }
 
+// === Links === //
 a,
 a:visited {
   color: $color-link-text;

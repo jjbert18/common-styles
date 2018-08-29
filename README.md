@@ -3,6 +3,51 @@
 
 ### SCSS file markup
 
+#### File structure:
+
+* **main**
+* -- **abstracts = files that do not output css when compiled**
+* ---- **fonts**
+* ------ *imports*
+* ------ primary
+* ------ secondary
+* ---- **functions**
+* ------ *imports*
+* ------ asset-pathing
+* ------ unit-conversions
+* ---- **mixins**
+* ------ *imports*
+* ------ breakpoints
+* ------ button-reset
+* ------ flexbox-prefixing
+* ------ fluid-type
+* ------ headings
+* ------ on-event
+* ------ outer-spacing
+* ------ positionings
+* ------ typography
+* ------ vertical-rhythm
+* ---- **variables**
+* ------ *imports*
+* ------ asset-patting
+* ------ breakpoints
+* ------ colors
+* ------ font-weights
+* ------ fonts
+* ------ outer-spacing
+* ------ transitions
+* ------ typography
+* ------ vertical-rhythm
+* -------- **theme**
+* ---------- *imports*
+* ---------- theme-colors
+* -- **base = project standard styles for global and common elements**
+* ---- *imports*
+* ---- base
+* ---- color-classes
+* ---- helpers
+* ---- typography 
+
 #### File start:
 First line on compiled files start with `@charset 'UTF-8';`
 **not needed on partial files*

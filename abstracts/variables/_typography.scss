@@ -55,7 +55,7 @@ $type-h3-max-fl: px-to-rem($type-h3-max, true);
 $type-h3-min-fl: px-to-rem($type-h3-min, true);
 $type-h3-max-screen: $bp-lg;
 $type-h3-min-screen: $bp-sm;
-$type-h3-transform: unset;
+$type-h3-transform: initial;
 $type-h3-weight: normal;
 
 // === h4 === //
@@ -71,6 +71,32 @@ $type-h4-min-screen: $bp-sm;
 $type-h4-transform: uppercase;
 $type-h4-weight: $font-weight-semi-bold;
 
+// === h5 === //
+$type-h5-family: $font-secondary;
+$type-h5-letter: normal;
+$type-h5-line: 1.5;
+$type-h5-max: 22;
+$type-h5-min: 20;
+$type-h5-max-screen: $bp-lg;
+$type-h5-min-screen: $bp-sm;
+$type-h5-max-fl: px-to-rem($type-h5-max, true);
+$type-h5-min-fl: px-to-rem($type-h5-min, true);
+$type-h5-transform: initial;
+$type-h5-weight: normal;
+
+// === h6 === //
+$type-h6-family: $font-secondary;
+$type-h6-letter: normal;
+$type-h6-line: 1.5;
+$type-h6-max: 20;
+$type-h6-min: 18;
+$type-h6-max-screen: $bp-lg;
+$type-h6-min-screen: $bp-sm;
+$type-h6-max-fl: px-to-rem($type-h6-max, true);
+$type-h6-min-fl: px-to-rem($type-h6-min, true);
+$type-h6-transform: initial;
+$type-h6-weight: normal;
+
 // === paragraph plus === //
 $type-p-plus-family: $font-primary;
 $type-p-plus-letter: normal;
@@ -81,7 +107,7 @@ $type-p-plus-max-fl: px-to-rem($type-p-plus-max, true);
 $type-p-plus-min-fl: px-to-rem($type-p-plus-min, true);
 $type-p-plus-max-screen: $bp-lg;
 $type-p-plus-min-screen: $bp-sm;
-$type-p-plus-transform: unset;
+$type-p-plus-transform: initial;
 $type-p-plus-weight: normal;
 
 // === paragraph === //
@@ -94,7 +120,7 @@ $type-p-max-fl: px-to-rem($type-p-max, true);
 $type-p-min-fl: px-to-rem($type-p-min, true);
 $type-p-max-screen: $bp-lg;
 $type-p-min-screen: $bp-sm;
-$type-p-transform: unset;
+$type-p-transform: initial;
 $type-p-weight: normal;
 
 // === paragraph minus === //
@@ -107,5 +133,5 @@ $type-p-minus-max-fl: px-to-rem($type-p-minus-max, true);
 $type-p-minus-min-fl: px-to-rem($type-p-minus-min, true);
 $type-p-minus-max-screen: $bp-lg;
 $type-p-minus-min-screen: $bp-sm;
-$type-p-minus-transform: unset;
+$type-p-minus-transform: initial;
 $type-p-minus-weight: normal;
